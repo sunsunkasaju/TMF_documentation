@@ -1,0 +1,12 @@
+field name,description
+category,"A ServiceCategoryRef. List of child categories in the tree for in this category."
+description,"A String. Description of the category."
+href,"A String. Hyperlink reference."
+id,"A String. Unique identifier."
+isRoot,"A Boolean. If true, this Boolean indicates that the category is a root of categories."
+lastUpdate,"A DateTime. Date and time of the last update."
+lifecycleStatus,"A String. Used to indicate the current lifecycle status."
+parentId,"A String. Unique identifier of the parent category."
+serviceCandidate,"A ServiceCandidateRef. List of service candidates associated with this category."
+validFor,"A TimePeriod."
+version,"A String. ServiceCategory version."

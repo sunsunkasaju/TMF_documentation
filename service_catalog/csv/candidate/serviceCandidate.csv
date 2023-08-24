@@ -1,0 +1,8 @@
+field name,description
+category,"A ServiceCategoryRef. List of categories for this candidate."
+description,"A String. Description of this REST resource."
+href,"A String. Hyperlink reference."
+id,"A String. Unique identifier."
+lastUpdate,"A DateTime. Date and time of the last update of this REST resource."
+validFor,"A TimePeriod."
+version,"A String. The version of service candidate."

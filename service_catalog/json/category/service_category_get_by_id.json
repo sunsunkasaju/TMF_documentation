@@ -1,0 +1,43 @@
+[
+    {
+      "_id": "64d33c17b4efcd40d0aeba58",
+      "category": [
+        {
+          "basetype": "",
+          "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v4/serviceCategory/5980",
+          "id": "5980",
+          "name": "AzureCloudApp",
+          "referredtype": "ServiceCategory",
+          "schemalocation": "https://mycsp.com:8080/tmf-api/schema/Service/ServiceCategoryRef.schema.json ",
+          "type": "ServiceCategoryRef",
+          "version": "1.0"
+        }
+      ],
+      "description": "Patch API Test",
+      "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v4/serviceCategory/1708",
+      "id": "1708",
+      "isroot": true,
+      "lastupdate": {
+        
+      },
+      "lifecyclestatus": "Active",
+      "parentid": "",
+      "servicecandidate": [
+        {
+          "basetype": "",
+          "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v4/serviceCandidate/5850",
+          "id": "5850",
+          "name": "Azure Kubernetes Service",
+          "referredtype": "ServiceCandidate",
+          "schemalocation": "https://mycsp.com:8080/tmf-api/schema/Service/ServiceCandidateRef.schema.json ",
+          "type": "ServiceCandidateRef",
+          "version": "1.0"
+        }
+      ],
+      "validfor": {
+        "endDateTime": "0001-01-01T00:00:00Z",
+        "startDateTime": "0001-01-01T00:00:00Z"
+      },
+      "version": "1.0"
+    }
+  ]

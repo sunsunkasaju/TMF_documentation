@@ -1,0 +1,6 @@
+field name,description
+href,"A String. Hyperlink reference."
+id,"A String. Identifier of the referred entity."
+name,"A String. Name of the referred entity."
+version,"A String. Category version."
+@referredType,"A String. The actual type of the target instance when needed for disambiguation."

@@ -1,0 +1,8 @@
+- In this script we are going to first create a common reference to a new word document
+- We will then create a function `AddBlock` that will take multiple paramenters and generate some contnet for the word file and return the generated content back
+- The function `AddBlock` will take these parameters -- Heading ( string ), Top (string in md format), csvLocation (string location of a csv file ), bottom (string in md format)
+- This function will write a simple header (h1), Convert the md formatted text into the word format and add teh top section
+- Open the csv file and read 2 columns from the csv file and use the contents to fill the table values
+- Below the table it should add the md text converted to the correct word format
+- We will then call this AddBlock function twice
+- Close and save the file

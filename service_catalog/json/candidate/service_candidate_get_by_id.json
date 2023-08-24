@@ -1,0 +1,224 @@
+[
+    {
+      "_id": "64d205b5ba95cd2745a1dcb1",
+      "category": [
+        {
+          "basetype": "",
+          "href": "",
+          "id": "",
+          "name": "test",
+          "referredtype": "",
+          "schemalocation": "",
+          "type": "",
+          "version": ""
+        }
+      ],
+      "description": "",
+      "href": "",
+      "id": "2",
+      "lastupdate": {
+        
+      },
+      "servicespecification": {
+        "href": "",
+        "id": "",
+        "invariantuuid": "",
+        "name": "",
+        "referredtype": "",
+        "schemalocation": "",
+        "toscamodelurl": "",
+        "type": "",
+        "version": ""
+      },
+      "validfor": {
+        "endDateTime": "0001-01-01T00:00:00Z",
+        "startDateTime": "0001-01-01T00:00:00Z"
+      },
+      "version": ""
+    },
+    {
+      "_id": "64d205fcba95cd2745a1dcb2",
+      "category": [
+        {
+          "basetype": "",
+          "href": "",
+          "id": "",
+          "name": "test",
+          "referredtype": "",
+          "schemalocation": "",
+          "type": "",
+          "version": ""
+        }
+      ],
+      "description": "",
+      "href": "",
+      "id": "2",
+      "lastupdate": {
+        
+      },
+      "servicespecification": {
+        "href": "",
+        "id": "",
+        "invariantuuid": "",
+        "name": "",
+        "referredtype": "",
+        "schemalocation": "",
+        "toscamodelurl": "",
+        "type": "",
+        "version": ""
+      },
+      "validfor": {
+        "endDateTime": "0001-01-01T00:00:00Z",
+        "startDateTime": "0001-01-01T00:00:00Z"
+      },
+      "version": ""
+    },
+    {
+      "_id": "64d205feba95cd2745a1dcb3",
+      "category": [
+        {
+          "basetype": "",
+          "href": "",
+          "id": "",
+          "name": "test",
+          "referredtype": "",
+          "schemalocation": "",
+          "type": "",
+          "version": ""
+        }
+      ],
+      "description": "",
+      "href": "",
+      "id": "2",
+      "lastupdate": {
+        
+      },
+      "servicespecification": {
+        "href": "",
+        "id": "",
+        "invariantuuid": "",
+        "name": "",
+        "referredtype": "",
+        "schemalocation": "",
+        "toscamodelurl": "",
+        "type": "",
+        "version": ""
+      },
+      "validfor": {
+        "endDateTime": "0001-01-01T00:00:00Z",
+        "startDateTime": "0001-01-01T00:00:00Z"
+      },
+      "version": ""
+    },
+    {
+      "_id": "64d20600ba95cd2745a1dcb4",
+      "category": [
+        {
+          "basetype": "",
+          "href": "",
+          "id": "",
+          "name": "test",
+          "referredtype": "",
+          "schemalocation": "",
+          "type": "",
+          "version": ""
+        }
+      ],
+      "description": "",
+      "href": "",
+      "id": "2",
+      "lastupdate": {
+        
+      },
+      "servicespecification": {
+        "href": "",
+        "id": "",
+        "invariantuuid": "",
+        "name": "",
+        "referredtype": "",
+        "schemalocation": "",
+        "toscamodelurl": "",
+        "type": "",
+        "version": ""
+      },
+      "validfor": {
+        "endDateTime": "0001-01-01T00:00:00Z",
+        "startDateTime": "0001-01-01T00:00:00Z"
+      },
+      "version": ""
+    },
+    {
+      "_id": "64d310135e14fde3aeab707f",
+      "category": [
+        {
+          "basetype": "",
+          "href": "",
+          "id": "",
+          "name": "test",
+          "referredtype": "",
+          "schemalocation": "",
+          "type": "",
+          "version": ""
+        }
+      ],
+      "description": "",
+      "href": "",
+      "id": "2",
+      "lastupdate": {
+        
+      },
+      "servicespecification": {
+        "href": "",
+        "id": "",
+        "invariantuuid": "",
+        "name": "",
+        "referredtype": "",
+        "schemalocation": "",
+        "toscamodelurl": "",
+        "type": "",
+        "version": ""
+      },
+      "validfor": {
+        "endDateTime": "0001-01-01T00:00:00Z",
+        "startDateTime": "0001-01-01T00:00:00Z"
+      },
+      "version": ""
+    },
+    {
+      "_id": "64d34024b4efcd40d0aeba59",
+      "category": [
+        {
+          "basetype": "",
+          "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v4/serviceCategory/5980",
+          "id": "5980",
+          "name": "TV",
+          "referredtype": "ServiceCategory",
+          "schemalocation": "https://mycsp.com:8080/tmf-api/schema/Service/ServiceCategoryRef.schema.json ",
+          "type": "ServiceCategoryRef",
+          "version": "3.2"
+        }
+      ],
+      "description": "PATCH Test Worked",
+      "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v4/serviceCandidate/4994",
+      "id": "4994",
+      "lastupdate": {
+        
+      },
+      "servicespecification": {
+        "href": "https://mycsp.com:8080/tmf-api/serviceCatalogManagement/v4/serviceSpecification/9600",
+        "id": "9600",
+        "invariantuuid": "",
+        "name": "CFSS_TV",
+        "referredtype": "CustomerFacingServiceSpecification",
+        "schemalocation": "https://mycsp.com:8080/tmf-api/schema/Service/ServiceSpecificationRef.schema.json ",
+        "toscamodelurl": "",
+        "type": "ServiceSpecificationRef",
+        "version": "2.1"
+      },
+      "validfor": {
+        "endDateTime": "0001-01-01T00:00:00Z",
+        "startDateTime": "0001-01-01T00:00:00Z"
+      },
+      "version": "2.1"
+    }
+  ]

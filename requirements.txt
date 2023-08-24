@@ -1,0 +1,4 @@
+pandas
+markdown
+docx
+html2text
