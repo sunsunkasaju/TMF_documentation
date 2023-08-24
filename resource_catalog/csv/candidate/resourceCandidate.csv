@@ -1,0 +1,11 @@
+field name,description
+category, "A list of resource category references (ResourceCategoryRef [*]). The categories in which this candidate is exposed."
+description, "A string. Description of this REST resource."
+href, "A string. Hyperlink reference to this REST resource."
+id, "A string. Unique identifier of this REST resource."
+lastUpdate, "A date time (DateTime). Date and time of the last update of this REST resource."
+lifecycleStatus, "A string. Used to indicate the current lifecycle status of the resource candidate."
+name, "A string. Name given to this REST resource."
+resourceSpecification, "A resource specification reference (ResourceSpecificationRef). The detailed specification for this candidate."
+validFor, "A time period. The period for which this REST resource is valid."
+version, "A string. The version of resource candidate."

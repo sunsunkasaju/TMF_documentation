@@ -1,0 +1,144 @@
+[
+   {
+      "id":"42",
+      "href":"https://mycsp.com:8080/tmf-api/resourceCatalogManagement/resourceSpecification/42",
+      "name":"Virtual Storage Medium",
+      "description":"This resource specification defines the virtual storage medium",
+      "@type":"LogicalResourceSpecification",
+      "@baseType":"ResourceSpecification",
+      "@schemaLocation":"https://mycsp.com:8080/tmf-api/schema/Resource/LogicalResourceSpecification.schema.json",
+      "version":"3.2",
+      "validFor":{
+         "startDateTime":"2017-08-12T00:00:00.000Z",
+         "endDateTime":"2018-03-07T00:00:00.000Z"
+      },
+      "lastUpdate":"2017-08-09T00:00:00.000Z",
+      "lifecycleStatus":"Active",
+      "isBundle":false,
+      "category":"Cloud resource",
+      "attachment":[
+         {
+            "id":"25552",
+            "href":"https://mycsp.com:8080/tmf-api/documentManagement/v4/attachment/25552",
+            "name":"Configuration Instructions",
+            "mimeType":"application/pdf",
+            "url":"https://mycsp.com:7070/docloader?docnum=9567457677"
+         }
+      ],
+      "relatedParty":[
+         {
+            "id":"5858",
+            "href":"https://mycsp.com:8080/tmf-api/partyManagement/organization/5858",
+            "role":"Supplier",
+            "name":"Gustave Flaubert",
+            "@referredType":"Organization"
+         }
+      ],
+      "resourceSpecCharacteristic":[
+         {
+            "name":"Maximum Allowed Storage",
+            "description":"The storage limit in the virtual storage medium, ",
+            "valueType":"integer",
+            "configurable":true,
+            "minCardinality":1,
+            "maxCardinality":1,
+            "isUnique":true,
+            "resourceSpecCharacteristicValue":[
+               {
+                  "valueType":"integer",
+                  "value":1024000
+               },
+               {
+                  "valueType":"integer",
+                  "value":2048000
+               }
+            ]
+         }
+      ],
+      "resourceSpecRelationship":[
+         {
+            "id":"556788",
+            "href":"https://mycsp.com:8080/tmf-api/resourceCatalogManagement/resourceSpecification/556788",
+            "name":"Underlying Physical Disk",
+            "relationshipType":"dependency"
+         }
+      ],
+      "targetResourceSchema":{
+         "@type":"VirtualStorage",
+         "@schemaLocation":"https://mycsp.com:8080/tmf-api/schema/Resource/VirtualStorage.schema.json"
+      }
+   },
+   {
+      "id":"43",
+      "href":"https://mycsp.com:8080/tmf-api/resourceCatalogManagement/resourceSpecification/43",
+      "name":"Nokia 7750 SR-s Service Router",
+      "description":"This resource specification defines an IP router provided by Nokia",
+      "@type":"PhysicalResourceSpecification",
+      "@baseType":"ResourceSpecification",
+      "@schemaLocation":"https://mycsp.com:8080/tmf-api/schema/Resource/PhysicalResourceSpecification.schema.json",
+      "version":"3.2",
+      "validFor":{
+         "startDateTime":"2017-08-12T00:00:00.000Z",
+         "endDateTime":"2018-03-07T00:00:00.000Z"
+      },
+      "lastUpdate":"2017-08-09T00:00:00.000Z",
+      "lifecycleStatus":"Active",
+      "isBundle":false,
+      "category":"Router resource",
+      "attachment":[
+         {
+            "id":"25553",
+            "href":"https://mycsp.com:8080/tmf-api/documentManagement/v4/attachment/25553",
+            "name":"Data Sheet",
+            "mimeType":"application/pdf",
+            "url":"https://onestore.nokia.com/asset/205421"
+         }
+      ],
+      "relatedParty":[
+         {
+            "id":"5855",
+            "href":"https://mycsp.com:8080/tmf-api/partyManagement/organization/5855",
+            "role":"Supplier",
+            "name":"Nokia Networks",
+            "@referredType":"Organization"
+         }
+      ],
+      "resourceSpecCharacteristic":[
+         {
+            "name":"Power Supply Option",
+            "description":"The type of power supply that can be chosen",
+            "valueType":"string",
+            "configurable":true,
+            "minCardinality":1,
+            "maxCardinality":1,
+            "isUnique":true,
+            "resourceSpecCharacteristicValue":[
+               {
+                  "valueType":"string",
+                  "value":"AC/HVDC"
+               },
+               {
+                  "valueType":"string",
+                  "value":"LVDC"
+               }
+            ]
+         }
+      ],
+      "resourceSpecRelationship":[
+         {
+            "id":"556234",
+            "href":"https://mycsp.com:8080/tmf-api/resourceCatalogManagement/resourceSpecification/556234",
+            "name":"SR OS Operating System",
+            "relationshipType":"dependency"
+         }
+      ],
+      "targetResourceSchema":{
+         "@type":"NokiaRouter",
+         "@schemaLocation":"https://mycsp.com:8080/tmf-api/schema/Resource/NokiaRouter.schema.json"
+      },
+      "model":"7750 SR",
+      "part":"2s",
+      "sku":"3HE09264AA",
+      "vendor":"Nokia Networks"
+   }
+]

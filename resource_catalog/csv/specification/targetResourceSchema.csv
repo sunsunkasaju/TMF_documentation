@@ -1,0 +1,3 @@
+field name,description
+@schemaLocation, "A string. This field provides a link to the schema describing the target resource."
+@type, "A string. Class type of the target resource."

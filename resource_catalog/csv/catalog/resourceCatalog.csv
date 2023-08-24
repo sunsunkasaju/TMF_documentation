@@ -1,0 +1,11 @@
+field name,description
+category, "A list of resource category references (ResourceCategoryRef [*]). List of root categories contained in this catalog."
+description, "A string. Description of this catalog."
+href, "A string. Unique reference of the catalog."
+id, "A string. Unique identifier of the Catalog."
+lastUpdate, "A date time (DateTime). Date and time of the last update."
+lifecycleStatus, "A string. Used to indicate the current lifecycle status."
+name, "A string. Name of the catalog."
+relatedParty, "A list of related parties (RelatedParty [*]). List of parties involved in this catalog."
+validFor, "A time period. The period for which the catalog is valid."
+version, "A string. Catalog version."

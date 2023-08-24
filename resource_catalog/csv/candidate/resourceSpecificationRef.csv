@@ -1,0 +1,6 @@
+field name,description
+@referredType, "A string. The actual type of the target instance when needed for disambiguation."
+href, "A string. Reference of the related entity."
+id, "A string. Unique identifier of a related entity."
+name, "A string. Name of the related entity."
+version, "A string. Resource Specification version."

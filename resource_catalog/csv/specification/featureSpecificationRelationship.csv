@@ -1,0 +1,7 @@
+field name,description
+featureId, "A string. Unique identifier of the target feature specification."
+name, "A string. This is the name of the target feature specification."
+relationshipType, "A string. This is the type of the feature specification relationship."
+resourceSpecificationHref, "A string. Hyperlink reference to the resource specification containing the target."
+resourceSpecificationId, "A string. Unique identifier of the resource specification containing the target feature."
+validFor, "A time period. The period for which this feature specification relationship is valid."

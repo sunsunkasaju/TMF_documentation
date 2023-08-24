@@ -1,0 +1,10 @@
+field name,description
+isDefault, "A boolean. True if the value is the default value for a characteristic."
+rangeInterval, "A string. Specifies the inclusion or exclusion of the valueFrom and valueTo attributes."
+regex, "A string. A regular expression constraint for given value."
+unitOfMeasure, "A string. A determinate quantity or magnitude of the kind designated, taken as a standard of comparison for others of the same kind, in assigning to them numerical values."
+validFor, "A time period. The period of time for which a value is applicable."
+value, "An any (Any). A discrete value that the characteristic can take on, or the actual value of the characteristic."
+valueFrom, "An integer. The low range value that a characteristic can take on."
+valueTo, "An integer. The upper range value that a characteristic can take on."
+valueType, "A string. A kind of value that the characteristic value can take on."

@@ -1,0 +1,58 @@
+[
+  {
+     "id":"7479",
+     "href":"https://mycsp.com:8080/tmf-api/resourceCatalogManagement/resourceCandidate/7479",
+     "name":"Virtual Storage Medium",
+     "description":"This resource candidate makes the virtual storage medium specification available in the cloudcatalog",
+     "@type":"ResourceCandidate",
+     "version":"2.1",
+     "validFor":{
+        "startDateTime":"2017-08-12T00:00:00.000Z",
+        "endDateTime":"2018-03-07T00:00:00.000Z"
+     },
+     "lastUpdate":"2017-08-09T00:00:00.000Z",
+     "lifecycleStatus":"Active",
+     "category":[
+        {
+           "id":"5355",
+           "href":"https://mycsp.com:8080/tmf-api/resourceCatalogManagement/category/5355",
+           "version":"1.1",
+           "name":"Cloud Resources"
+        }
+     ],
+     "resourceSpecification":{
+        "id":"42",
+        "href":"https://mycsp.com:8080/tmf-api/resourceCatalogManagement/resourceSpecification/42",
+        "version":"3.0",
+        "name":"VirtualStorageMedium"
+     }
+  },
+  {
+     "id":"7991",
+     "href":"https://mycsp.com:8080/tmf-api/resourceCatalogManagement/resourceCandidate/7991",
+     "name":"Router",
+     "description":"This resource candidate makes the Nokia Router available in the hardware catalog",
+     "@type":"ResourceCandidate",
+     "version":"2.1",
+     "validFor":{
+        "startDateTime":"2017-08-12T00:00:00.000Z",
+        "endDateTime":"2019-12-31T00:00:00.000Z"
+     },
+     "lastUpdate":"2018-08-09T00:00:00.000Z",
+     "lifecycleStatus":"Active",
+     "category":[
+        {
+           "id":"53116",
+           "href":"https://mycsp.com:8080/tmf-api/resourceCatalogManagement/category/53116",
+           "version":"1.1",
+           "name":"Routers"
+        }
+     ],
+     "resourceSpecification":{
+        "id":"32",
+        "href":"https://mycsp.com:8080/tmf-api/resourceCatalogManagement/resourceSpecification/32",
+        "version":"3.0",
+        "name":"NokiaRouter"
+     }
+  }
+]

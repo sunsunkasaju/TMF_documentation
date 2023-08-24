@@ -1,0 +1,10 @@
+field name,description
+constraint, "A list of constraint references (ConstraintRef [*]). This is a list of feature constraints."
+featureSpecCharacteristic, "A list of feature specification characteristics (FeatureSpecificationCharacteristic [*]). This is a list of characteristics for a particular feature."
+featureSpecRelationship, "A list of feature specification relationships (FeatureSpecificationRelationship [*]). A dependency, exclusivity or aggregation relationship between/among feature specifications."
+id, "A string. Identifier of the feature specification. Must be locally unique within the containing resource specification, thus allowing direct access to the feature spec."
+isBundle, "A boolean. A flag indicating if this is a feature group (true) or not (false)."
+isEnabled, "A boolean. A flag indicating if the feature is enabled (true) or not (false)."
+name, "A string. Unique name given to the feature specification."
+validFor, "A time period. The period for which this feature specification is valid."
+version, "A string. Version of the feature specification."

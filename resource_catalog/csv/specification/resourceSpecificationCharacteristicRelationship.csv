@@ -1,0 +1,7 @@
+field name,description
+characteristicSpecificationId, "A string. Unique identifier of the characteristic within the specification."
+name, "A string. Name of the target characteristic within the specification."
+relationshipType, "A string. Type of relationship such as aggregation, migration, substitution, dependency, exclusivity."
+resourceSpecificationHref, "A string. Hyperlink reference to the resource specification containing the target characteristic."
+resourceSpecificationId, "A string. Unique identifier of the resource specification containing the target characteristic."
+validFor, "A time period. The period for which the object is valid."

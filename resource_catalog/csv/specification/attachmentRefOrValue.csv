@@ -1,0 +1,12 @@
+field name,description
+@referredType, "A string. The actual type of the target instance when needed for disambiguation."
+description, "A string. A narrative text describing the content of the attachment."
+href, "A string. URI for this Attachment."
+id, "A string. Unique identifier for this particular attachment."
+url, "A string. Uniform Resource Locator, is a web page address (a subset of URI)."
+name, "A string. The name of the attachment."
+attachmentType, "A string. Attachment type such as video, picture."
+content, "A base 64 (Base64). The actual contents of the attachment object, if embedded, encoded as base64."
+mimeType, "A string. Attachment mime type such as extension file for video, picture and document."
+size, "A quantity (Quantity). The size of the attachment."
+validFor, "A time period. The period of time for which the attachment is valid."

@@ -1,0 +1,13 @@
+field name,description
+@valueSchemaLocation, "A string. This (optional) field provides a link to the schema describing the value type."
+configurable, "A boolean. True is the feature is configurable."
+extensible, "A boolean. An indicator that specifies that the values for the characteristic can be extended by adding new values when instantiating a characteristic for a feature."
+featureSpecCharRelationship, "A list of feature specification characteristic relationships (FeatureSpecificationCharacteristicRelationship [*]). An aggregation, migration, substitution, dependency or exclusivity relationship between/among feature characteristics."
+featureSpecCharacteristicValue, "A list of feature specification characteristic values (FeatureSpecificationCharacteristicValue [*]). Used to define a set of attributes, each of which can be assigned to a corresponding set of attributes in a FeatureCharacteristic object."
+isUnique, "A boolean. An indicator that specifies if a value is unique for the specification."
+maxCardinality, "An integer. The maximum number of instances a CharacteristicValue can take on."
+minCardinality, "An integer. The minimum number of instances a CharacteristicValue can take on."
+name, "A string. This is the name for the feature characteristic."
+regex, "A string. A rule or principle represented in regular expression used to derive the value of a characteristic value."
+validFor, "A time period. The period of time for which a characteristic is applicable."
+valueType, "A string. A kind of value that the characteristic can take on."

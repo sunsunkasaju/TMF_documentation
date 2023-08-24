@@ -1,0 +1,3 @@
+field name,description
+amount, "A float. Numeric value in a given unit."
+units, "A string. Unit."

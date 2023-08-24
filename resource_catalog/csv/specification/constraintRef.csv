@@ -1,0 +1,6 @@
+field name,description
+@referredType, "A string. The (class) type of the referred constraint."
+href, "A string. Hyperlink reference to the target constraint."
+id, "A string. Reference id to the target constraint."
+name, "A string. Name given to the constraint."
+version, "A string. Constraint version."
