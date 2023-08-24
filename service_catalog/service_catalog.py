@@ -1,40 +1,5 @@
-from create_doc import *
-from config import *
+from document_creator import *
 
-
-module_folder = "service_catalog"
-submodule = "catalog"
-
-
-csvLocs = [f"{my_folder}/{module_folder}/csv/{submodule}/serviceCatalog.csv", 
-           f"{my_folder}/{module_folder}/csv/{submodule}/relatedParty.csv", 
-           f"{my_folder}/{module_folder}/csv/{submodule}/serviceCategoryRef.csv"]
-
-jsonLocs = [f"{my_folder}/{module_folder}/json/{submodule}/service_catalog_get_list.json",
-            f"{my_folder}/{module_folder}/json/{submodule}/service_catalog_get_by_id.json",
-            f"{my_folder}/{module_folder}/json/{submodule}/service_catalog_post.json",
-            f"{my_folder}/{module_folder}/json/{submodule}/service_catalog_patch.json",]
-
-jsonList = ["GET List", "GET by id", "POST", "PATCH"]
-
-def add_content():
-    global csvLocs, jsonLoc
-
-    heading = 'TMF633 Service Service Catalog - Service Catalog'
-    content = '''**Description:** This service is used to show the currently available services that can be ordered. The source of these services is from the Service Specification where the specification has also been added as a candidate(this step is to control the visibility of specifications).
-**URL:** /tmf-api/serviceCatalog/v5/serviceCatalog
-**Supported methods:** GET List, GET by ID, POST, PATCH, DELETE'''
-
-    AddSection(heading, content, csvLocs,'')
-
-    for i, jsonLoc in enumerate(jsonLocs):
-        if jsonList[i] in ["GET List", "GET by id"]:
-            print(jsonList[i])
-            AddJsonSection(jsonList[i], None, jsonLoc)
-        else:
-            print(jsonList[i])
-            AddJsonSection(jsonList[i], jsonLoc, None )
-
-
-
-
+class ServiceCatalog(DocumentCreator):
+    def __init__(self, file_path) -> None:
+        super().__init__(file_path)

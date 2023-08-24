@@ -1,0 +1,23 @@
+{
+    "module_folder": "service_catalog",
+    "submodule": "catalog",
+    "csvLocs": [
+        "path_to_csv_file_1",
+        "path_to_csv_file_2",
+        "path_to_csv_file_3"
+    ],
+    "jsonLocs": [
+        "path_to_json_file_1",
+        "path_to_json_file_2",
+        "path_to_json_file_3",
+        "path_to_json_file_4"
+    ],
+    "jsonList": [
+        "GET List",
+        "GET by id",
+        "POST",
+        "PATCH"
+    ],
+    "heading": "TMF633 Service Service Catalog - Service Catalog",
+    "content": "Your content here..."
+}

@@ -31,9 +31,12 @@ def AddJsonSection(Heading, requestJsonFile, responseJsonFile):
             run.font.name = 'Courier New'
 
     if responseJsonFile:
-        print("Here")
         doc.add_heading("Response",3)
 
+        if Heading == "POST":
+            AddMandatoryFields()
+        elif Heading == "PATCH":
+            AddPatchableFields()
         # Read json file and add contents to the document in a monospaced font
         with open(responseJsonFile, 'r') as f:
             data = json.load(f)
@@ -46,6 +49,12 @@ def AddJsonSection(Heading, requestJsonFile, responseJsonFile):
             run.font.name = 'Courier New'
 
     return
+
+def AddMandatoryFields():
+    pass
+
+def AddPatchableFields():
+    pass
 
 
 def parseMarkdown(content):
@@ -140,7 +149,7 @@ def AddTable(csvLocation):
 
                
     except FileNotFoundError:
-        print("CSV file not found.")
+        print(f"{csvLocation} CSV files not found.")
         sys.exit(1)
 
 

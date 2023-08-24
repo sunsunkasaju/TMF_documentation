@@ -1,0 +1,20 @@
+{
+    "module_folder": "service_catalog",
+    "submodule": "category",
+    "csvLocs": [
+        "${root_dir}/${module_folder}/csv/${submodule}/serviceCategory.csv",
+        "${root_dir}/${module_folder}/csv/${submodule}/serviceCandidateRef.csv",
+        "${root_dir}/${module_folder}/csv/${submodule}/serviceCategoryRef.csv"
+    ],
+    "jsonLocs": [
+        "${root_dir}/${module_folder}/json/${submodule}/service_category_get_list.json",
+        "${root_dir}/${module_folder}/json/${submodule}/service_category_get_by_id.json",
+        "${root_dir}/${module_folder}/json/${submodule}/service_category_post.json",
+        "${root_dir}/${module_folder}/json/${submodule}/service_category_patch.json"
+    ],
+    "jsonList": ["GET List", "GET by id", "POST", "PATCH"],
+    "mandatoryFields": "${root_dir}/${module_folder}/csv/${submodule}/mandatoryFields.csv",
+    "patchFields": "${root_dir}/${module_folder}/csv/${submodule}/patchFields.csv",
+    "heading": "TMF633 Service Service Catalog - Service Category",
+    "content": "**Description:**\nThis service is used to define categories that can be applied to Services.\n\n**URL:** /tmf-api/serviceCatalog/v5/serviceCategory\n**Supported methods:** GET List, GET by ID, POST, PATCH, DELETE"
+}

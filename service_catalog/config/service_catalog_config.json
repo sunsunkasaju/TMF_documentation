@@ -1,0 +1,25 @@
+{
+    "module_folder": "service_catalog",
+    "submodule": "catalog",
+    "csvLocs": [
+        "${root_dir}/${module_folder}/csv/${submodule}/serviceCatalog.csv",
+        "${root_dir}/${module_folder}/csv/${submodule}/relatedParty.csv",
+        "${root_dir}/${module_folder}/csv/${submodule}/serviceCategoryRef.csv"
+    ],
+    "jsonLocs": [
+        "${root_dir}/${module_folder}/json/${submodule}/service_catalog_get_list.json",
+        "${root_dir}/${module_folder}/json/${submodule}/service_catalog_get_by_id.json",
+        "${root_dir}/${module_folder}/json/${submodule}/service_catalog_post.json",
+        "${root_dir}/${module_folder}/json/${submodule}/service_catalog_patch.json"
+    ],
+    "jsonList": [
+        "GET List",
+        "GET by id",
+        "POST",
+        "PATCH"
+    ],
+    "heading": "TMF633 Service Service Catalog - Service Catalog",
+    "content": "**Description:** This service is used to show the currently available services that can be ordered. The source of these services is from the Service Specification where the specification has also been added as a candidate(this step is to control the visibility of specifications). **URL:** /tmf-api/serviceCatalog/v5/serviceCatalog **Supported methods:** GET List, GET by ID, POST, PATCH, DELETE",
+    "mandatoryFields": "${root_dir}/${module_folder}/csv/${submodule}/mandatoryFields.csv",
+    "patchFields": "${root_dir}/${module_folder}/csv/${submodule}/patchFields.csv"
+}

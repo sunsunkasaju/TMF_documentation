@@ -1,4 +1,4 @@
 pandas
 markdown
-docx
+python-docx
 html2text

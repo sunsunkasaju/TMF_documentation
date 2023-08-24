@@ -1,0 +1,5 @@
+field name,description
+characteristicRelationship,A CharacteristicRelationship.
+id,A String. Unique identifier of the characteristic.
+name,A String. Name of the characteristic.
+valueType,A String. Data type of the value of the characteristic.

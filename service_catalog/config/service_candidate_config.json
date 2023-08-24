@@ -1,0 +1,19 @@
+{
+    "module_folder": "service_catalog",
+    "submodule": "candidate",
+    "csvLocs": [
+        "${root_dir}/${module_folder}/csv/${submodule}/serviceCandidate.csv",
+        "${root_dir}/${module_folder}/csv/${submodule}/serviceCategoryRef.csv"
+    ],
+    "jsonLocs": [
+        "${root_dir}/${module_folder}/json/${submodule}/service_candidate_get_list.json",
+        "${root_dir}/${module_folder}/json/${submodule}/service_candidate_get_by_id.json",
+        "${root_dir}/${module_folder}/json/${submodule}/service_candidate_post.json",
+        "${root_dir}/${module_folder}/json/${submodule}/service_candidate_patch.json"
+    ],
+    "mandatoryFields": "${root_dir}/${module_folder}/csv/${submodule}/mandatoryFields.csv",
+    "patchFields": "${root_dir}/${module_folder}/csv/${submodule}/patchFields.csv",
+    "jsonList": ["GET List", "GET by id", "POST", "PATCH"],
+    "heading": "TMF633 Service Service Catalog - Service Candidate",
+    "content": "***Description:***\nThis service indirectly controls the catalog. By adding a specification as candidate it makes the service available in the catalog.\n\n***URL:*** /tmf-api/serviceCatalog/v5/serviceCandidate\n***Supported methods:*** GET List, GET by ID, POST, PATCH, DELETE"
+}
